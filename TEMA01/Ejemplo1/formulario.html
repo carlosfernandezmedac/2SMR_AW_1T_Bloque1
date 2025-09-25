@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Formulario Curso Medac</h1>
+    <form action="datos.php" method="post">
+        <h3><label for="cmedac"> Curso Medac</label></h3>
+        <input type="text" id="cmedac" name="cmedac" placeholder="SMR">
+        <h3><label for="mmedac"> Curso Medac</label></h3>
+        <input type="text" id="mmedac" name="mmedac" value="Aplicaciones Web"> <br><br>
+        <button type="button" onclick="alert('Datos enviados correctamente')"> Enviar Datos</button>
+    </form>
+    <hr>
+    <h1> Formulario lista de la compra</h1>
+    <form>
+        <input type="checkbox" id="elem1" name="elem1" value="leche">
+        <label for="elemento1"> Caja de leche</label><br>
+        <input type="checkbox" id="elem2" name="elem2" value="pan" checked="true">
+        <label for="elemento2"> Pan rústico</label><br>
+        <input type="checkbox" id="elem3" name="elem3" value="huevos">
+        <label for="elemento3"> Huevos(docena)</label><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+p {
+    color: red;
+    font-size: 30px;
+}
+
+.estiloParrafo {
+    color: blueviolet;
+}
+
+
+h1{
+    color: blue;
+}
+
+.estiloCaja{
+    border: 2px outset blue;
+}
