@@ -6,23 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Formulario Curso Medac</h1>
     <form action="datos.php" method="post">
-        <h3><label for="cmedac"> Curso Medac</label></h3>
-        <input type="text" id="cmedac" name="cmedac" placeholder="SMR">
-        <h3><label for="mmedac"> Curso Medac</label></h3>
-        <input type="text" id="mmedac" name="mmedac" value="Aplicaciones Web"> <br><br>
-        <button type="button" onclick="alert('Datos enviados correctamente')"> Enviar Datos</button>
-    </form>
-    <hr>
-    <h1> Formulario lista de la compra</h1>
-    <form>
-        <input type="checkbox" id="elem1" name="elem1" value="leche">
-        <label for="elemento1"> Caja de leche</label><br>
-        <input type="checkbox" id="elem2" name="elem2" value="pan" checked="true">
-        <label for="elemento2"> Pan rústico</label><br>
-        <input type="checkbox" id="elem3" name="elem3" value="huevos">
-        <label for="elemento3"> Huevos(docena)</label><br>
+
+        <fieldset>
+            <legend> Formulario Curso Medac </legend>
+            <h3><label for="cmedac"> Curso Medac</label></h3>
+            <input type="text" id="cmedac" name="cmedac" placeholder="Escribe algo aquí...">
+            <h3><label for="mmedac"> Curso Medac</label></h3>
+            <input type="text" id="mmedac" name="mmedac" value="Aplicaciones Web"> <br><br>
+        </fieldset>
+        
+
+        <fieldset>
+               <legend> Listado de la compra</legend>
+               <input type="checkbox" id="elem1" name="elem1" value="leche">
+                <label for="elemento1"> Caja de leche</label><br>
+                <input type="checkbox" id="elem2" name="elem2" value="pan" checked="true">
+                <label for="elemento2"> Pan rústico</label><br>
+                <input type="checkbox" id="elem3" name="elem3" value="huevos">
+                <label for="elemento3"> Huevos(docena)</label><br><br>
+        </fieldset>
+        
+        <fieldset> 
+            <legend> Lista despegable</legend>
+            <select name="select">
+                <option value="modulo1"> Sistemas Operativos en Red</option>
+                <option value="modulo2" selected> Aplicaciones Web</option>
+                <option value="modulo3"> Seguridad Informática</option>
+            </select> <br><br>
+
+        </fieldset>
+        <button type="submit"> Enviar Datos</button>
     </form>
 </body>
 </html>
