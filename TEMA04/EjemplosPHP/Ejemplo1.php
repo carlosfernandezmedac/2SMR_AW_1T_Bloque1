@@ -6,8 +6,7 @@
     <title>Prueba de PHP</title>
 </head>
 <body>
-    <?php 
-        echo "Hola Mundo!!!";
-    ?>
+    <?php include("hola.php"); ?>
+    <?php echo "Hola Mundo1!!"; ?>
 </body>
 </html>

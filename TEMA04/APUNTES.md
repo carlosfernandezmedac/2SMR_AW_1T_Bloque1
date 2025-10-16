@@ -200,8 +200,6 @@ El código **PHP** se ejecuta en el **servidor**, y el resultado (HTML o JS) se 
 </html>
 ```
 
-![alt text](./img/phpintro.png)
-
 ---
 
 ### 5.2. Definición de Variables
@@ -300,8 +298,6 @@ Crear una aplicación PHP que compare dos números y muestre el mayor.
   </body>
 </html>
 ```
-
-![alt text](./img/casophp.png)
 
 ---
 
