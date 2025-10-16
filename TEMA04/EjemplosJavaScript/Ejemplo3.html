@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo básico de JavaScript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script languaje="JavaScript">
+        $(document).ready(function(){
+        $("#button1").click(function(){
+            alert("Has pulsado el botón");
+            $("#button1").css("background-color" , "red");
+              $(this).css("padding", "20px");   // Aumenta el tamaño visual
+        });
+        });
+    </script>
+</head>
+<body>
+    <h1>Botón interactivo con JavaScript</h1>
+    <form>
+        <input type="button" id="button1" value="Púlsame">
+    </form>
+</body>
+</html>
